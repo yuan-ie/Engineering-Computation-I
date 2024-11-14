@@ -1,0 +1,164 @@
+James Soley
+
+10 + 10 + 10 + 27 = 54/60 = 90%
+
+T1:
+    Excellent.
+
+T2:
+    Excellent.
+T3:
+    Excellent.
+
+Q&A:
+    (-3) Couln't explain the "." in the find command right away
+    but easily figured it out with a bit of help.
+    (-3) Wrong permissions on your directory.
+
+Comments:
+    Excellent as always. Just make sure to do research on everything
+    you see, even if it seems trivial. You may be asked what every
+    single thing does or mean to test your knowledge.
+    Otherwise, great code, great commenting/formatting, and great
+    explanations.
+
+
+
+Salvatore Tanelli
+
+10 + 4 + 10 + 19 = 43/60 = 72%
+
+T1:
+    Excellent.
+
+T2:
+    (-3) Didn't know how to redirect output starting from p01 (where the
+    mycat program was located) to p02. Make use of ".." instead of making
+    another copy of the whole program to p02.
+    (-3) Did not know how to find only the text files starting with p0.
+
+    Besides that, was able to do the other commands just fine.
+
+T3:
+    "mycopy" program runs fine.
+    Showed that there were no differences in the original and copied files.
+
+Q&A:
+    (-3) Didn't know why <find . -name "*.txt"> displayed so many txt files
+    from the home directory.
+    (-3) Thought "." searches through home directory.
+    It searches through current directory.
+    (-5) Didn't know how output would look like if it is different,
+    and partially explained the output of the diff command when making
+    a change in the copied file.
+
+Comments:
+    Make use of the cd command, especially "cd .." to go up a directory.
+    You can also use sd instead of cd.
+    I was surprised that you are this far without making use of ".."
+    It is very helpful, especially when you want to copy, move, delete (etc.)
+    files in an adjacent directory, without changing to that directory.
+
+    Ex: If you are in p01/ and want to copy a file to p02/,
+    ->   cp file.txt ../p02/file2.txt
+        (this works because p01/ and p02/ are located in tanelli_salvatore/)
+
+    Make sure to research on all parts of a command, even if it may look
+    trivial.
+
+
+
+Javier Schorle
+
+8 + 8 + 6 + 25 = 47 / 60 = 78%
+
+T1:
+    (-2) mycat program has .py extension.
+    Otherwise, excellent.
+T2: 
+    (-2) Needed a bit of help redirecting output from p01/ to p02/.
+
+T3:
+    (-2) Works fine, but your program prints when it shouldn't.
+    (-2) mycopy program has .py extension.
+
+Q&A:
+    (-5) Didn't know what "." and "*" meant in the find command.
+    Otherwise, was able to answer all my questions well.
+
+Comments:
+    Make sure to read the directions carefully.
+    If it says the program should be able to do:
+        mycat <file>
+    then the program doesn't need the extenstion.
+    If your program is executable and has the python shebang,
+    you should be able to run the command as a python file,
+    even without the .py extension. Same for mycopy program.
+
+    Also do research on all parts of a command, even if it seems trivial.
+    Otherwise, Great job!
+
+
+
+Thomas E Taaffe
+
+6 + 7 + 8 + 25 = 46/60 = 77%
+
+T1: 
+    (-2) For some reason, your program is named mycopy.py in p01/
+    (-2) Does not need .py extenson.
+T2: 
+    (-3) Didn't know how to redirect output starting from p01 (where the
+    mycat program was located) to p02. 
+
+T3: Worked perfectly, and could explain the diff command.
+    (-2) Does not need .py extension.
+
+Q&A:
+    Explained well why <find . -name "*.txt"> showed so many text files.
+    Knew how to search for only the desired files.
+    (-5) Didn't know what "." and "*" meant in the find command.
+
+Comments:
+    Make sure to read the directions carefully.
+    If it says the program should be able to do:
+        mycat <file>
+    then the program doesn't need the extenstion.
+    If your program is executable and has the python shebang,
+    you should be able to run the command as a python file,
+    even without the .py extension. Same for mycopy program.
+
+    Also do research on all parts of a command, even if it seems trivial.
+    Otherwise, Great job!
+
+Sahil Singh
+
+10 + 10 + 3 + 16 = 39/60 = 65%
+
+T1: Excellent.
+
+T2:
+    Did the commands correctly.
+
+T3:
+    (-2) mycopy shouldn't print to the terminal.
+    (-5) should have a separate copy for mycopy, but instead
+    combined it with mycat.
+
+Q&A:
+    (-3) Didn't know why <find . -name "*.txt"> displayed so many txt files
+    from the home directory.
+    (-3) Wrong permissions on your directory.
+    (-3) Could not explain "*" in the find command.
+    (-5) Overall took a lot of time because not very familiar with many
+    commands.
+
+Comments:
+    When you have to write multiple programs that are very similar,
+    keep them as separate programs rather than combining, especially
+    since they are separate tasks.
+
+    Study a lot more on the commands went over in your lectures.
+    It's harder to remember things just by reading. Practice using them too.
+    A lot of time was spent troubleshooting or mistaken commands like
+    exiting without saving.

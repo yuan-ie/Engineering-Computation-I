@@ -1,0 +1,119 @@
+James Soley
+
+10 + 10 + 10 + 4 + 20 = 90%
+
+T1:
+    Excellent.
+T2:
+    Excellent.
+T3:
+    Excellent.
+T4:
+    (-4) Should be printing line by line, but printing character
+	by character.
+    (-2) No explanation of comparing your program to
+    "more" and "cat".
+Formatting: 
+    Excellent.
+
+Comments*
+    Everything works perfectly. Make sure to read the instructions
+    carefully though. Great job!! :)
+
+Javier Schorle
+
+10 + 7 + 10 + 1 + 20 = 80%
+
+T1:
+    Excellent.
+T2:
+    (-3) The float variable should be printed with four
+    decimal points. (You should also declare your float
+    with all the numbers after the point: 
+    "float sum = 27.272727272727;")
+T3:
+    Excellent.
+T4:
+    (-3) You should be reading the file from stdin (which
+    is the terminal input), not hardcoding the file. 
+    You can do this by using fgetc(stdin), no need to open
+    the file.
+    (-4) Should be printing line by line, but printing character
+	by character.
+    (-2) No explanation of comparing your program to
+    "more" and "cat".
+Formatting: 
+    Excellent.
+
+Comments*
+    Everything works perfectly. Just make sure to read the
+    directions carefully.
+
+Sahil Singh
+
+10 + 10 + 10 + 8 + 19 = 93%
+
+T1:
+    Excellent.
+T2:
+    Excellent.
+T3:
+    Excellent.
+T4:
+    Excellent, but
+    (-2) No explanation of comparing your program to
+    "more" and "cat".
+Formatting: 
+    (-2) Should add comments showing that you are declaring/
+    defining any variables.
+
+Comments*
+    Everything works perfectly. 
+    Great job!! :)
+
+Thomas E Taaffe
+
+10 + 7 + 10 + 8 + 0 = 58%
+
+T1:
+    Excellent.
+T2:
+    (-3) The float variable should be printed with four
+    decimal points. You have %.12f. Use %.4f for this task.
+T3:
+    Excellent.
+T4:
+    Excellent, but
+    (-2) No explanation of comparing your program to
+    "more" and "cat".
+Formatting:
+    (-20) No formatting or comments in all programs.
+
+Comments*
+    Just as how you formatted your code in Python, do it the
+    same way for C. Use the example code in the lecture 12
+    directory for reference. Good job getting everything to
+    work though!
+
+Salvatore Tanelli
+
+10 + 10 + 10 + 8 + 20 = 97%
+
+T1:
+    Excellent.
+T2:
+    Excellent.
+T3:
+    Excellent.
+T4:
+    Excellent, but
+    (-2) No explanation of comparing your program to
+    "more" and "cat".
+Formatting:
+    Excellent.
+
+Comments*
+    Excellent job!! Everything works perfectly.
+    Just want to add that your program in task 4 can
+    definitely be done in a less complicated way, but
+    at least it works the way we want it to. :)

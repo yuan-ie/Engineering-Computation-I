@@ -1,0 +1,94 @@
+James Soley
+
+38 + 40 + 80 = 99%
+
+T1:
+    (-2) Matched lines where the window goes past the scope
+    of the file did not indicate any match when there is a
+    match. -- This was easily fixed.
+T2:
+    Excellent.
+Q&A:
+    Excellent.
+
+Javier Schorle
+
+33 + 30 + 69 = 82%
+
+T1:
+    (-2) Didnt have default n-value when -n is not specified.
+    (-5) Doesn't have that space cushion for windows going out
+    of bounds of EOF. It repeats lines from BOF instead.
+
+T2: 
+    (-5) Doesn't work for multiple files.
+    (-5) Has a fixed order.
+
+Q&A:
+    (-3) Couldn't explain how some lines were indexed.
+    (-3) Couldn't not explain the error check method when -w
+    is placed at the end with no associated value.
+    (-5) Some functions that were used were not explained
+    correctly.
+
+Salvatore Tanelli
+
+29 + 20 + 75 = 78%
+
+T1:
+    (-3) Has a somewhat fixed order. (Doesn't account for
+    -w or -n being placed at the end.)
+    (-3) Didn't account for case sensitivity. Fixed it easily.
+    (-5) Theres an issue when multiple matches are shown within
+    the same window.
+
+T2:
+    (-15) Not working. Doesn't print anything.
+    (-5) The structure of the overall code is not correct, but
+    on the right path.
+Q&A:
+    (-5) Some functions that were used were not explained
+    correctly.
+
+Sahil Singh
+
+22 + 22 + 50 = 59%
+
+T1: 
+    (-10) Didn't work initially. Nothing was printing.
+    (-3) The file parsing did not work.
+    (-5) Does not work with -n unspecified.
+T2:
+    (-15) Doesn't work. Nothing was printing.
+    (-3) The way -w was set up, it looks optional rather than
+    required.
+Q&A:
+    (-5) Couldn't explain how the arguments parsed.
+    The method was not efficient or practical.
+    (-25) A lot of the functions or methods used to implement
+    parsing or finding lines with the matched word could not
+    be explained.
+
+
+Thomas E Taaffe
+
+15 + 35 + 50 = 63%
+
+T1: 
+    (-3) doesnt show the second half of the window when a line
+    has a match.
+    (-5) Matched lines where the window goes past the scope
+    of the file gives an error rather than printing the
+    remaining strings within the window.
+    (-2) Works with any n-value except for n=1.
+    (-5) Options have fixed positions.
+    (-5) Does not work with -n unspecified.
+    (-5) Doesn't work with multiple matches.
+T2:
+    (-5) Matched lines where the window goes past the scope
+    of the file gives an error rather than printing the
+    remaining strings within the window.
+Q&A:
+    (-30) A lot of the functions or methods used to implement
+    parsing or finding lines with the matched word could not
+    be explained.

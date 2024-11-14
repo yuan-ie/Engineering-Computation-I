@@ -1,0 +1,135 @@
+James Soley
+
+10 + 10 + 10 + 30 = 60/60 = 100%
+
+T1:
+	Excellent.
+T2:
+	Excellent.
+T3:	
+	Excellent.
+Q&A:
+	Answered all of my questions correctly.
+	Passed all of my different types of error checks.
+	
+Comments:
+	Great job on the lab!
+	Keep up the good work!
+
+
+Javier Schorle
+
+7 + 0 + 0 + 8 = 15/60 = 25%
+
+T1:
+	(-3) Wrong output format.
+T2:
+	(-10) Nothing provided.
+T3:
+	(-10) Nothing provided.
+Q&A:
+	(-3) No error for no argument.
+	(-3) No error for one argument.
+	(-4) Not much understanding about try and except.
+	(-12) None of the error checks can be completed.
+
+Comments:
+	The material is getting harder, and I know that
+	you may be busy prioritizing other classes, but
+	please don't hesitate to reach out!
+
+	If the office hours do not line up, send an email
+	and we could always make things work!
+
+	In general, you seem to have a good understanding
+	on the labs and assignments, so I know that you
+	will get through this as long as you reach out. :)
+
+Thomas E Taaffe
+
+8 + 10 + 8 + 5 = 31/60 = 52% 
+
+T1:
+	(-2) Output is not showing 4 places after the decimal.
+T2:
+	Excellent.
+T3:
+	(-2) Output array is containing strings, not floats.
+Q&A:
+	(-25) No error messages and no uses of try-except blocks.
+
+Comments:
+	Make sure to read directions carefully.
+	The lab instructions say to make sure you find as many
+	errors as possible and attach error messages to those.
+	Definitely study up on try-except. They are very useful
+	for error checking.
+
+Sahil Singh
+
+10 + 10 + 10 + 23 = 53/60 = 88%
+
+T1: 
+	Excellent!
+T2:
+	Excellent!
+T3: 
+	Excellent!
+Q&A:
+	(-3) Wrong error message for wrong dimensions.
+	(-4) Has too many things going on after the error.
+	Use sys.exit() to exit the program before it continues
+	running it more errors so the output can be clean.
+
+
+Salvatore Tanelli
+
+6 + 6 + 8 + 12 = 32/60 = 53%
+
+T1: 
+	(-4) Wrong output, output is supposed to be a scalar.
+T2:
+	(-2) Didn't work initially until one of the error
+	checks were commented out.
+	(-2) Answer is outputting as a list of strings,
+	not floats.
+T3:
+	(-2) Output is a list of strings
+Q&A:
+	(-4) No error message for no argument throughout all.
+	(-4) No error message for one argument throughout all.
+	(-2) Wrong error message for non-number constant.
+	(-2) Wrong error message for vector containing string.
+	(-3) Dimension check not working properly.
+	(-3) Couldnt answer question about try and except.
+
+Comments:
+	Your programs work, however make sure to check if the
+	output matches as required. Having an output as strings,
+	and not a float could be a small but detrimental mistake,
+	especially when you are connecting multiple programs.
+	Keep that in mind for future assignments or projects!
+
+	Another thing is to always think about all the types or
+	errors a program can have. An argument may be missing,
+	an argument might be the wrong type, a file contains the
+	wrong things (or is corrupted), etc. Make sure these error
+	messages are describing the right thing too!
+
+existing file
+vector lengths
+contains non number
+file extension
+check if constant is non number
+what if no arguments
+what if one argument
+
+make sure output as float to 4 decimal points
+
+a x b : b x c : a x c
+
+ b b b b     c c c    c c c
+a	    b	     a
+a	 x  b	  =  a
+a	    b	     a
+	    b

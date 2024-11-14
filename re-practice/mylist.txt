@@ -1,0 +1,6 @@
+total 32
+drwxrwxr-x.   2 picone ece_1111    51 Apr 21 23:19 binary
+drwxrwxr-x.   2 picone isip        82 Apr 16 23:21 file_formats
+drwxrwxr-x. 590 picone isip     16384 Apr  9 08:30 lots_of_files
+drwxrwxr-x.   3 picone isip        51 Apr 24 00:51 matrices
+drwxrwxr-x.   2 picone isip        26 Apr  9 08:31 text

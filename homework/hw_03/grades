@@ -1,0 +1,163 @@
+Javier Schorle
+
+10 + 10 + 7 + 5 = 32/40 = 80%
+
+Command line processing:
+	Excellent. Works completely.
+Search Accuracy:
+	Excellent. Searches all the foos, and correct # of matches.
+Informative Output:
+	(-3) Wrong help message. The help message should be custom to your program.
+Formatting:
+	(-2) There should only be one "lines matched: ..."
+	If you put two files in the arguments,
+	it displays this line twice at the end. 
+	(-3) Wrong commenting format. It should be:
+    		# This is a comment
+    		#
+    		Line of code.
+	Plus, your commenting style was not very consistent throughout.
+
+Comments:
+	Name your program that is simple or more accurate to what you are doing.
+	Calling it help.py is a bit confusing since you already have a help file.
+	Make sure your output is exactly as how the example shows.
+	Otherwise, good job having a working program.
+
+
+Sahil Singh
+
+10 + 10 + 10 + 8 = 38/40 = 95%
+
+Command line processing:
+	Excellent. Works completely.
+Search accuracy:
+	Excellent. Searches for all of the foos, and correct # of matches.
+Informative Output:
+	Excellent. Including good help message.
+Format:
+	(-2) Should put spaces after each line starting with "line: .."
+	Ex:
+	    file: ...
+	    line: ...
+
+	    file: ...
+	    line: ...
+	
+Comments:
+	Code works perfectly. Format is excellent.
+	Make sure the output is the same, even the spacing.
+	There is a lot of improvement since the last few assignments.
+	Great job!! :D
+
+
+James Soley
+
+10 + 10 + 5 + 5 = 30/40 = 80%
+
+Command line processing:
+	Excellent.
+Search accuracy:
+	Excellent. Searches for all of the foos, and correct # of matches.
+Informative Output:
+	Excellend output for searches, but
+	(-5) -help doesn't work.
+	You hardcoded your help file, which is stored in your home directory..
+	I have no access to it.
+Format:
+	(-3) Doesn't follow the coding format.
+	Should be like this:
+		# This is a comment.
+		#
+		Line of Code.
+	(-2) Should have your own files in your directory for testing.
+
+Comments:
+	If you are testing things in your home directory, at the end, copy those
+	files to your homework directory too. It's helpful to know what you
+	are working with. It's also best to not hardcode things.
+	If it's very specific to your local computer or home directory,
+	other people using your program will not have access to it, resulting in
+	missing arguments or errors.
+	I trust that the help argument works though. Besides that, everything
+	else works perfectly.
+
+
+
+Thomas E Taaffe
+
+10 + 10 + 5 + 6 = 31/40 = 78%
+
+Command line processing:
+	Excellent. Works completely.
+Search accuracy:
+	Excellent. Searches for all of the foos, and correct # of matches.
+Informative Output:
+	(-5) Your help message is fine, but your -help doesn't work.
+	You have some typos for your help fuction:
+		print(help_funcion.read())
+		help_fumction.close()
+Format:
+	(-2) Should put spaces after each line starting with "line: .."
+	Ex:
+		file: ...
+		line: ...
+
+		file: ...
+		line: ...
+
+	(-2) Well commented, but the comments are not consistent. Half of your comments
+	do not follow the format. It should be:
+		# This is a comment
+		#
+		Line of code.
+	** Note: hashtag, space, and then comment. Keep the first letter capital.
+	It's good to be consistent down to the spaces and capitalization too.
+
+Comments:
+	The main task works perfectly. However, make sure everything works.
+	Always do final testing for all parts. Check for any typos.
+	There were multiple. Also, be consistent with your comments.
+	The first half and second half of your comments looked like it was typed
+	by different people since they were only consistent until the other half.
+	Good job doing the foo part of your program.
+
+
+
+Salvatore Tanelli
+
+10 + 10 + 10 + 1 = 31/40 = 78%
+
+Command line processing:
+	Excellent. Works completely.
+Search accuracy:
+	Excellent. Searches for all of the foos, and correct # of matches.
+Informative Output:
+	Excellent.
+Format:
+	(-2) Should put spaces after each line starting with "line: .."
+	Ex:
+		file: ...
+		line: ...
+
+		file: ...
+		line: ...
+
+	(-2) There should only be one "lines matched: ..."
+	If you put multple files in the arguments,
+	it displays this line multiple times (once at the end of each file that was read).
+
+	(-5) Not all lines are commented and wrong commenting format.
+	Keep this format:
+		# This is a comment
+		#
+		Line of code.
+
+		# This is a comment
+		#
+		Line of code.
+	That includes the hastag, SPACE, and capitalization on the first letter.
+	The comments weren't very conistent.
+	Keep each block separate for easy readability.
+	Make sure the comment has the same indentation as the line of code associated to it.
+		

@@ -1,0 +1,84 @@
+cd -> change directory (to normal folders)
+sd -> change directory (including hidden folders)
+
+ls -> shows list of items in current dir
+	-l folder/path in current dir; use to show items the folder or path after current dir
+
+history -> see all previous commands used
+p or pwd -> path of current dir
+mkdir -> create new folder in current dir
+more -> shows the shellscript of item
+
+bash -> go to next shell
+exit -> close current shell and go to previous shell (at the last point left off at)
+
+scp <src> <dst> -> copt source item to destination directory
+	destination is user@host:/path...
+
+tab completion -> completes the line with whatever options there are.
+
+to go to home directory
+	sd $HOME
+	cd
+	sd ~
+	etc.
+
+d -> list contents in current directory, including .files
+	also includes permissions, user, group, size (bytes), date&time
+	read(r), write(w), execute(x)
+	rwxr--r-- first three user permssions, second three group permissions, last three rest of the world permissions
+
+d > [file] -> shell redirection
+	redirect output of command to [file]
+	no need to create [file] beforehand
+
+symbolic link
+	current -> ./2024_01_fall/
+	current can be changed to represent other paths if changed
+
+chmod -> change permissions
+	a-rwx [file] no permissions
+	a+wrx [file] all permissions
+	g+rx [file] only group as read and execute.
+	(when it can be executed, there is a star placed next to file name)
+
+sudo bash -> makes user to super user to make changes to anything
+
+d l* -> list everything that starts with l
+d -d l* -> list everything that starts with l but dont expand directory
+d -d ???? -> list everything with only four characters
+d -d [a-c]* -> list only names that begin with a, b, and c
+d -d [a-m]*tri* -> list names from a-m and contains "tri" in it
+d -d *wc -> list names that end in wc
+
+find dir/ -name "*.csv_bi" -> files that end only with .csv_bi
+find dir/ -name "*.csv_bi" | wc -l
+	counts number of lines of the output of this command
+find dir/ -name "*.csv_bi" | cut -d"." -f2 -> gives the second part of line split by "." such as xxx_yyy_zzz.txt -> txt
+find ... | grep xxx_yyy_zzz -> finds files containing grep "xxx_yyy_zzz"
+
+find .../ -name "*.csv_bi" -exec ls -l {} \;
+	for files ending with .csv_bi, execute ls -l
+	{} means any file found, process it through ls -l
+
+find .../ -name "*.csv_bi" -exec cat {} \; > x.cat
+	x.dat will have contents of all those files
+
+C-r, reverse search
+C-s forward search
+C-e enter(?)
+
+man sort [-option] -> manual sort
+
+ls -l | sort [-option]
+
+shebang
+#!/usr/bin/env_python
+tells the operating system that this is a python script, invokes python interpreter,
+so no need to write python in the terminal to run the script
+
+x=4
+("%10.4f" % (x)) -> 4.0000
+
+find . -name "note*.txt" -exec grep -l "a" {} \; -exec grep -l "b" {} \; -exec grep -l "c" {} \;
+find files containing a AND b AND c. it starts with checking for a first.

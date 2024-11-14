@@ -1,0 +1,168 @@
+Javier Schorle
+
+Score: 10 + 8 + 8 + 25 = 51/60 = 85%
+
+T1:     
+        correct results! nice job using floats and not integers as the directions says.
+T2:
+        (-2) partially correct results. When outputted, it reads as:
+            1   2   3   4
+        0   5   6   7   8
+        1   9  10  11  12
+        2  13  14  15  16
+        The reason for that is because by default, dataframe will show the indices
+        (the row and column numbers). It is reading the first row of the data as the header
+        and not as data. You can fix this by putting "pd.read_excel(filename, header=None)"
+        It will look like this:
+            0   1   2   3
+        0   1   2   3   4
+        1   5   6   7   8
+        2   9  10  11  12
+        3  13  14  15  16
+T3:     
+        (-2) partially correct results.
+        Same reason as T2.
+Format: 
+        (-5) p01.py does not follow the format. Only p02.py and p03.py.
+
+Comments:
+        Great work on the homework!. Everything works, but just make sure to pay
+        attention to your outputs. It's not fully wrong, it is just a misunderstanding
+        of the functions that you use. If you are confused about anything, such as why the
+        function is outputting the way it does, please ask or use google. :)
+
+        "df" is not a global variable. You dont have to put anything in that spot for now.
+        "df" is also not a function. You set df as the results from reading the excel/csv files.
+        When commenting, make exact descriptions of what that line of code is doing.
+
+
+Sahil Singh
+
+Score: 8 + 5 + 5 + 15 = 33/60 = 55%
+
+T1:     
+        (-2) Didn't print Matrix 1 and Matrix 2.
+T2:     
+        (-3) Did not write as a program.
+        (-2) partially correct results. When outputted, it reads as:
+            1   2   3   4
+        0   5   6   7   8
+        1   9  10  11  12
+        2  13  14  15  16
+        The reason for that is because by default, dataframe will show the indices
+        (the row and column numbers). It is reading the first row of the data as the header
+        and not as data. You can fix this by putting "pd.read_excel(filename, header=None)"
+        It will look like this:
+            0   1   2   3
+        0   1   2   3   4
+        1   5   6   7   8
+        2   9  10  11  12
+        3  13  14  15  16
+T3:     
+        (-5) Same reasons as T2.
+Format: 
+        (-15) All three files do not follow the coding format. If you have any questions
+        about that, please ask. The files do not follow the template, the commenting format,
+        and are not written as programs.
+
+Comments:
+        Good work on getting all the files to run correctly. Even though you can do the
+        assignment, follow the class format. It's good to be consistent, so it will come
+        naturally to you as you code in the future. Eventually, everyone deviates to their own
+        coding style, but it's good to have a baseline.
+
+        Only p01.py makes use of functions. However, it is fine the way you have functions for each
+        operation (multiplication, addition, etc), but also make use of the "main" function.
+        The way you have it, the overall program is calling each function individually.
+        Have a main function that holds those prints AND calls all the sub-functions (additon, etc.)
+
+        Another thing, the way you are coding is not efficient. Use the pandas or numpy library
+        to fill the matrix, instead of filling each element manually.
+        And instead of for-loops, you can just do something like:
+        result = matrix + matrixtwo
+
+
+James Soley
+
+Score: 10 + 8 + 8 + 30 = 56/60 = 93%
+
+T1:     
+        Excellent.
+T2:     
+        (-2) partially correct results. When outputted, it reads as:
+            1   2   3   4
+        0   5   6   7   8
+        1   9  10  11  12
+        2  13  14  15  16
+        The reasom for that is because by default, dataframe will show the indices
+        (the row and column numbers). It is reading the first row of the data as the header
+        and not as data. You can fix this by putting "pd.read_excel(filename, header=None)"
+        It will look like this:
+            0   1   2   3
+        0   1   2   3   4
+        1   5   6   7   8
+        2   9  10  11  12
+        3  13  14  15  16
+T3:     
+        (-2) partially correct results. When outputted, it reads as:
+        [[ 5  6  7  8]
+        [ 9 10 11 12]
+        [13 14 15 16]]
+        The reason for that is the same as the above task. It is reading the top row as a
+        header, not as values. So using the variable.values prints only the values it sees.
+        You can also fix this by putting header=None after the filename.
+Format: 
+        Excellent.
+Comments:
+        Very well commented, and uses the correct template too.
+        Very nice that you included some quirks, such as printing the file name.
+        One thing, just write print instead of sys.std.write.
+        Also make sure to check that your outputs are exactly as how you want it.
+        If it is missing something, or showing things you don't know about, just ask or google.
+        Otherwise, great job as always! :D
+
+Thomas Taaffe
+
+Score: 10 + 8 + 8 + 23 = 49/60 = 82%
+
+T1:     
+        Excellent.
+T2:     
+        (-2) permissions wrong. didn't enable executable permission.
+        Otherwise, correct output.
+T3:     
+        (-2) Running as "p03.py ..." is not working. Only works with "python" added in front of it.
+        Since it works with using "python p03.py ...", and you have the shebang at the top and the
+        executable permission enabled,the issue might not be your code.
+        it might be your [myenv] directory affecting it.
+Format: 
+        (-7) Some of the commenting style is fine, but the coding template is not used. Otherwise,
+        everything is well commented and neat. Also, add the comments above the corresponding line
+        instead of below it. Follow the exact commenting style. If you need help with that, just ask.
+
+Comments:
+        Including the usage statement was very helpful.
+        Some students exported the excel file as a csv instead (which is Another way to do it),
+        but it is really cool to see that you converted the excel file to csv through python!
+
+
+Salvatore Tanelli
+
+Score: 10 + 10 + 10 + 25 = 55/60 = 92%
+
+T1:     
+        Excellent.
+T2:     
+        Excellent.
+T3:     
+        Excellent.
+Format: 
+        (-5) Follows the template and everything is well commented, but follow the comment format
+        with the example codes that Dr. Picone provided. Your commenting style is fine, but at least
+        for this class, follow how the class does it. Eventually, you will deviate into your own
+        style later on, but it's good to have a baseline.
+
+Comments:
+        Very well done!
+        Use print instead of sys.stdout.write.
+        The outputs are really neat!

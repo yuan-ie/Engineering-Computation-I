@@ -1,0 +1,17 @@
+gcc file.c -o filename
+    -> filename is an executable with no -c flag
+
+gcc -c file.c -o filename.o
+    -> -c flag lets compiler know to output as an object file
+
+gcc file.o -o filename
+gcc file1.o file2.o file3.o -o filename # where file1 has main function
+gcc file1.c file2.o file3.o -o filename # .c has main function
+    -> compile object file to executable
+    -> can fo incremental compiles
+    -> second and third line are similar
+
+
+
+# function containing main program should have #include "file.h" // header file
+# header file may contain functions of other .o files to be used

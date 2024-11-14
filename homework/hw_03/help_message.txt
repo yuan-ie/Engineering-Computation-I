@@ -1,0 +1,6 @@
+About:
+	This program counts the number of lines that contain foo
+	in each file inputted. Try it out!
+
+Usage:
+	foo_count.py <file1.txt> <file2.txt> <file...txt>

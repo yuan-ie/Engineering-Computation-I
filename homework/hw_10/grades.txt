@@ -1,0 +1,76 @@
+Sahil Singh
+
+40 + 40 + 20 = 100%
+
+T1:
+    Excellent.
+T2:
+    Excellent.
+Format:
+    Excellent.
+
+James Soley
+
+39 + 39 + 15 = 93%
+
+T1:
+    (-1) Be a little more specifc with your usage statement
+    such as -> prog.exe <base> <exponent> or <const> <const>.
+T2:
+    (-1) Be a little more specifc with your usage statement
+    such as -> prog.exe <binary>.
+Format:
+    (-5) Only the makefiles within each task folder works.
+    The overall makefile should compile for both progs at once.
+
+Thomas E Taaffe
+
+40 + 40 + 13 = 93%
+
+T1:
+    Excellent.
+T2:
+    Excellent.
+Format:
+    (-5) The makefiles within each task folder works.
+    You should have an overall makefile should compile for both
+    progs at once.
+    (-2) Include more comments so I can see your thought process
+    in T1.
+
+Salvatore Tanelli
+
+38 + 40 + 11 = 89%
+
+T1:
+    (-2) No if-usage block. Results in segfault.
+T2:
+    Excellent.
+Format:
+    (-5) The makefiles within each task folder works.
+    You should have an overall makefile should compile for both
+    progs at once.
+    (-4) Include more comments so I can see your thought process
+    in T1 & T2.
+
+Javier Schorle
+
+39 + 33 + 13 = 85%
+
+T1:
+    (-1) Error message is wrong when one or no arguments inputted.
+T2:
+    (-1) Error message is wrong when no arguments inputted.
+        -> Print a usage message instead.
+    (-1) Segfaults with no arguments.
+    (-5) Your program only works with != 2 arguments because you had
+    put EVERYTHING into that if statement. Make sure to check if your
+    is correctly placed inside or outside the block.
+        -> It works, but handling the commandline argument indices
+        are wrong. It should work when it == 2 arguments.
+Format:
+    (-2) Include more comments so I can see your thought process
+    in T2.
+    (-5) The makefiles within each task folder works.
+    You should have an overall makefile should compile for both
+    progs at once.

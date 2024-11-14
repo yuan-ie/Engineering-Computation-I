@@ -1,0 +1,206 @@
+Javier Schorle
+
+8 + 5 + 8 + 6 + 16 = 43/60 = 72%
+
+T1:
+    (-2) Plot has no title and axis labeled.
+
+T2:
+    (-2) Plot has no title and axis labeled.
+    (-3) No explanation to the question.
+T3:
+    (-2) Plot has no title and axis labeled.
+T4:
+    (-2) Plot has no title and axis labeled.
+    (-2) Answer is too short and vague.
+
+Formatting:
+    (-4) Since there are a lot of plots to show, you
+    should save your figures as PNG or use matplotlib's
+    figure function! When you use plt.figure() before
+    each time you plot, it lets the program know that
+    the plots are separate. Otherwise it will overwrite
+    on top or combine the plots (the latter is not a
+    problem, but the former was happening instead) and
+    it was confusing to knwo which plot was for which task
+    and covariance.
+
+Comments:
+    Good job on getting things to work! :)
+    However, you should make your work more accessible
+    for the person who has to read/analyze it (ex. the
+    grader! or anyone else). Title your figures, label
+    your axis, separate your plots, etc. Look more into
+    the matplotlib library.
+
+Sahil Singh
+
+10 + 7 + 10 + 3 + 20 = 50/60 = 83%
+
+T1:
+    Excellent.
+T2:
+    Excellent, but
+    (-3) No explanation to the question.
+    You could leave it as a comment.
+T3:
+    Excellent.
+T4:
+    (-2) No axis labeled on any of the graphs.
+    (-4) No explanation for the question.
+Formatting:
+    The commenting and formatting is great!
+
+Comments:
+    Although your program is great, your main function
+    is very very long.
+    Sometimes it is fine to separate your main function 
+    into smaller functions and have your main function 
+    call them.
+
+    Also, it's great to comment everything, but
+    some things may be a bit redundant. Such as
+    all the lines used to set the axis and plot the figure,
+    you can just put those multiple lines under one comment.
+    It's less cluttered and already easy to understand
+    if you just say "Plot the Gaussian 3D Identity" etc.
+
+    Really great job though!! :)
+
+James Soley
+
+8 + 5 + 8 + 3 + 20 (+1) = 45/60 = 75%
+
+T1: 
+    (-2) Miscalculations.
+    Otherwise, correct method.
+T2:
+    (-2) Miscalculations.
+    (-3) No answer to the question.
+    Otherwise, correct method.
+T3:
+    (-2) Miscalculations.
+    Otherwise, correct method.
+T4:
+    (-2) Miscalculations.
+    (-5) No answers to the questions.
+    Otherwise, correct method.
+
+Formatting:
+    Great formatting and commenting!
+    And cute print statement at the start of running the
+    program (+1 extra). Everything titled, axis labeled,
+    and saved PNG files are well labeled/sorted. 
+
+Comments:
+    Very well documented code. It was also great that
+    you created your own Gaussian function; however, your
+    equations have a few mistakes, leading to all your outputs
+    wrong (similar shape but wrong output values).
+    It is mostly with your d and denom variable.
+
+    There are functions you can use instead of manual
+    calculations. The Scipy libray has norm.pdf (univariate)
+    and multivariate_norm functions to do the job easily.
+
+
+Thomas E Taaffe
+
+8 + 5 + 10 + 0 + 11 = 34/60 = 57%
+
+T1:
+    (-2) Mean and Variance should be a vectory of one dimension.
+    Although they are still considered scalars, keep it a vector
+    with one value for both.
+    Otherwise, correct output!
+T2:
+    (-2) Same reason as T1.
+    (-3) No answer to the question.
+    You could just leave it as a comment.
+T3: Excellent.
+T4:
+    (-10) Not provided.
+Formatting:
+    Formatting is great!
+    (-2) Taking some points off because some things there are not
+    commented even though it is worht commenting, like your
+    exponent coefficient variables, etc.
+    (-2) Remove sys.argv and argv out of the parameters. It does not
+    affect anything visibly, but no argument is needed to call the
+    function. Always take away things you don't need to cause less
+    confusion and clutter.
+    There is also a random import sys at the bottom of your T3 file
+    where it is calling the main function.
+    (-5) Points off since I cannot grade the format of T4.
+
+Comments:
+    For the tasks you have done, great work! Make sure to answer
+    the questions though!
+    Also, instead of writing your gaussian equations manually,
+    there is a library that have functions that can compute that
+    already! Such as scipy's norm.pdf (univariate) function and
+    multivariate function.
+
+Salvatore Tanelli
+
+3 + 3 + 3 + 8 + 11 = 28/60 = 42%
+
+T1:
+    (-7) Not plotted correctly.
+T2:
+    (-7) Not plotted correctly.
+
+    For T1 and T2, they are univariate, not multivariate.
+    There should be plots correctly labeled with univariate.
+    Furthermore, you should have specific variables that hold
+    these one dimensional vectors.
+
+    Points are only given because it seems you know what you
+    are talking about through your T2 answer, so I know you put
+    the effort in to get results, but the results are not visibly
+    clear to me.
+
+T3:
+    (-7) Not much evidence of doing anything besides your
+    knowledge in your answer...
+T4:
+    (-2) You should have each probabilty (p) plotted individually
+    with their respective covariance matrix.
+
+    Points given because of the thorough explanation.
+
+Formatting:
+    This is not intuitive or user-friendly for people who are not
+    familar with this program. Reasons below:
+
+        (-5) It was neat that you allowed to specify the x limits
+        with command line arguments; however, that was not easy to
+        figure out. If you were going to do this approach, leave a
+        help/usage message. Otherwise, an argument is not needed.
+        Just hardcode x to be from -10 to 10. In addition, not sure
+        why it takes three arguments when you are using only two.
+
+        Initially, I thought your program did not work since I put
+        no arguments and it was giving a series of errors.
+
+        (-4) I am not sure if your code is expecting the reader to edit
+        your variables for each question to receive the right output.
+        If that was the case, that should have been specified. But
+        this approach is not good to use unless required. Instead, you
+        should have multiple variables declared, or have them redeclared
+        for different tasks.
+            Approach 1:
+                mu1 = numpy.array([0.0]) # mean for task 1
+                mu2 = numpy.array([1.0]) # mean for task 2
+            Approach 2:
+                mu = numpy.array([0.0])
+                *** do task 1 here ***
+
+                mu = numpy.array([1.0]) # the first declared mu gets
+                                            overwritten with this
+                *** do task 2 here ***
+
+Comments:
+    Please ask questions before due date!
+
+chown tul16619 schorle_javier/ singh_sahil/ soley_james/ taaffe_thomas/ tanelli_salvatore/

@@ -1,0 +1,17 @@
+to sync item to item:
+rsync [-option] [source] [destination]
+	use option [-a / -archive] includes all necessary options like copying files recursively and preserving permissions, ownership, etc.
+	if source is "dir1/", it will copy the contents of dir1 to the destination.
+	if source is "dir", it will copy the whole folder to the destination.
+
+if this error is here:
+protocol version mismatch -- is your shell clean?
+(see the rsync manpage for an explanation)
+rsync error: protocol incompatibility (code 2) at compat.c(622) [sender=3.2.7]
+
+^ remove the items in bash that are outputting to the terminal at login
+
+rsync [-option] test tul16619@ece-000.eng.temple.edu:/destination
+	[-a]
+	[-auxb]
+	[-avhze ssh] shows a list of what is being copied

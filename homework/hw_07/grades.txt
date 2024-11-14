@@ -1,0 +1,77 @@
+Javier Schorle
+
+10 + 10 + 2 + 8 = 75%
+
+T1:
+    Excellent.
+T2:
+    Excellent.
+T3:
+    (-8) Incomplete.
+Format:
+    (-2) Well commented but not following the comment style.
+
+----------------------------------------------------------------
+
+Sahil Singh
+
+10 + 10 + 10 + 10 = 100%
+
+T1:
+    Excellent.
+T2: 
+    Excellent.
+T3:
+    Excellent.
+Format:
+    Excellent.
+
+----------------------------------------------------------------
+
+James Soley
+
+10 + 9 + 10 + 9 = 95%
+
+T1:
+    Excellent.
+T2:
+    (-1) Output should print the mask exactly as how it is typed (0F).
+T3:
+    Excellent.
+Format:
+    (-1) The format for T3 looks a bit strange. Indentations are off too.
+
+Comments*
+    To avoid segfaults, add usage/error prints and close the program
+    with return.
+
+----------------------------------------------------------------
+
+Thomas E Taaffe
+
+10 + 6 + 10 + 10 = 90%
+
+T1:
+    Excellent.
+
+T2:
+    (-4) Logic is right but output is wrong.
+T3:
+    Excellent.
+Format:
+    Excellent.
+
+----------------------------------------------------------------
+
+Salvatore Tanelli
+
+10 + 10 + 10 + 10 = 100%
+
+T1:
+    Excellent.
+T2:
+    Excellent.
+T3:
+    Excellent.
+Format:
+    Excellent.

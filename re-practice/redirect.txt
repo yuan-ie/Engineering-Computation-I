@@ -1,0 +1,4 @@
+total 0
+-rw-r--r--. 1 tul16619 ece_1111 0 Sep  2 22:40 file{1...10}.txt
+-rw-r--r--. 1 tul16619 ece_1111 0 Sep  2 22:41 testfile1.txt
+-rw-r--r--. 1 tul16619 ece_1111 0 Sep  2 22:42 testfile2.txt

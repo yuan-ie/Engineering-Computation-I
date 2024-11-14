@@ -1,0 +1,89 @@
+James Soley
+
+10 + 10 + 10 + 8 + 40 = 98%
+
+T1:
+    Excellent.
+T2:
+    Excellent.
+T3:
+    Excellent.
+GDB:
+    (-2) Had trouble with certain commands.
+Q&A:
+    Excellent.
+
+Thomas E Taaffe
+
+8 + 8 + 8 + 7 + 33 = 80%
+
+T1:
+    (-2) Should have used an implementation file (p01_00.cc).
+T2:
+    (-2) Should have used an implementation file.
+T3:
+    (-2) Should have used an implementation file.
+Debug:
+    (-3) Had some trouble debugging.
+
+Q&A: 
+    (-2) Had trouble explaining memory allocation.
+    (-2) Had trouble explaining reading lines of the file and storing into temporary buffer
+    (-2) Didn't know why the types of the functions are the way they are.
+    (-1) Didnt know why N shows what it does in gdb.
+
+Salvatore Tanelli
+
+8 + 8 + 8 + 10 + 40 = 93%
+
+T1:
+    (-2) Should have used an implementation file (p01_00.cc).
+T2:
+    (-2) Should have used an implementation file.
+T3:
+    (-2) Should have used an implementation file.
+Debug:
+    Excellent.
+Q&A: 
+    Excellent.
+
+
+Javier Schorle
+
+8 + 8 + 7 + 10 + 35 = 85%
+
+T1:
+    (-2) Should have used an implementation file (p01_00.cc).
+T2:
+    (-2) Should have used an implementation file.
+T3:
+    (-2) Should have used an implementation file.
+    (-1) You should just pass an integer rather than the address
+    of the integer value.
+Debug:
+    Excellent.
+Q&A:
+    (-2) Didn't know why the types of the functions are the way they are.
+    (-1) gdb explanations are correct except the example you provided for
+    the print function only applies if the variable is a pointer. if
+    it's a non-pointer, printing the address is 'print &p'.
+    (-2) Had some trouble explaining certain functions.
+
+Comments*
+    Great work! :)
+
+Sahil Singh
+
+10 + 10 + 10 + 8 + 40 = 95%
+
+T1:
+    Excellent.
+T2:
+    Excellent.
+T3:
+    Excellent.
+GDB:
+    Excellent.
+Q&A:
+    (-2) Wrong explanation on function types and return values.
+    (-2) Couldn't explain fgets.
