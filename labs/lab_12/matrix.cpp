@@ -64,7 +64,7 @@ bool MyMatrix::isRectangle(){
 }
 
 MyMatrix MyMatrix::operator+(MyMatrix& other){
-    if (this->isRectangle() == false && other.isRectangle()){
+    if (!this->isRectangle() || !other.isRectangle()){
 
     }
 }
